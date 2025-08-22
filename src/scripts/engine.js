@@ -76,6 +76,10 @@ async function createCardImage(ramdomIdCard, fieldSide) {
     return cardImage;
 }
 
+async function drawSelectCard(index) {
+    state.cardSprites.avatar.src = cardData[index];
+}
+
 async function drawCards(cardNumbers, fieldSide) {
     for (let i = 0; i < cardNumbers; i++){
         const ramdomIdCard = await getRamdomCardId();
