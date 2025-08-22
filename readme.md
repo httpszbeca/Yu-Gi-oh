@@ -9,3 +9,4 @@ conceitos abordados:
 - Organização de código
 
 - Video sombreado passando ao fundo do jogo
+- Enumerar: listar alguma coisa, de forma que consiga resgatar ou criar sentido a alguma coisa que não tem sentido
